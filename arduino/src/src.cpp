@@ -1,7 +1,7 @@
 const int NUM_SLIDERS = 5;
-const int analogInputs[NUM_SLIDERS] = {A3, A2, A1, A0, A10};
+const int analogInputs[NUM_SLIDERS] = {A0, A1, A2, A3, A4};
 const int NUM_BUTTONS = 6;
-const int buttonInputs[NUM_BUTTONS] = {9,8,7,6,5,4};
+const int buttonInputs[NUM_BUTTONS] = {11,10,9,6,5};
 
 int analogSliderValues[NUM_SLIDERS];
 int buttonValues[NUM_BUTTONS];
